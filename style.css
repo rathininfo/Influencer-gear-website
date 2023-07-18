@@ -103,3 +103,21 @@ header{
  }
 
  /* End header banner style */
+
+/* start sponser style */
+    .sponser-container{
+        max-width: 1110px;
+        margin: 0 auto;
+        padding: 100px 0px 134px 0px;
+    }
+
+    .sponser-logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        border-image: linear-gradient(to right, rgb(222, 221, 221), rgb(232, 232, 227)) 1;
+        padding: 40px 0px;
+    }
+/* End sponser style */
