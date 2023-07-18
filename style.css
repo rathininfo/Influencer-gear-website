@@ -139,6 +139,7 @@ header{
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
     gap: 30px;
+    margin-bottom: 25px;
 }
 
 .collection-cart{
@@ -189,4 +190,43 @@ header{
     font-size: 0.875rem;
 }
 
-./* End collection style */
+.see-more-btn{
+    display: flex;
+    justify-content: end;
+
+}
+
+.see-more-btn a{
+    text-decoration: none;
+    color: #E02C6D;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* End collection style */
+
+/* start featured style */
+
+.featured-section{
+    margin: 174px 160px 100px 160px;
+}
+
+.feature-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature-btn{
+   border-radius: 0;
+   font-weight: 700;
+}
+
+.feature-content h2{
+    font-size: 2.375rem;
+}
+
+.feature-content p{
+    margin: 16px 0px 16px 0px;
+}
+/* End featured style */
